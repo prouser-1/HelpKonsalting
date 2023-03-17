@@ -1,0 +1,299 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: -8px auto;
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    width: 100%;
+    color: #222222;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.block {
+    display: inline-block;
+    padding: center;
+}
+
+/*Шапка сайта(меню)*/
+header {
+    width: 100%;
+    background: #ffffff;
+}
+
+.content1 {
+    height: 720px;
+    width: 100%;
+    background: #22AED1;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 45px 0 0;
+}
+
+.menu-nav {
+    text-align: right;
+    margin-top: -96px;
+    color: #222222;
+}
+
+.menu-item {
+    margin-left: 49px;
+}
+
+.img {
+    margin-right: 10px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center
+}
+
+.href {
+    font-size: 13px;
+    text-decoration: none
+}
+
+a.href {
+    color: #222222;
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+ul li {
+    display: inline-block;
+}
+
+nav {
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+
+
+
+
+/*директория(хлебные крошки)*/
+ol {
+    list-style: none;
+    margin-left: -40px;
+}
+
+ol li {
+    display: inline;
+    font-size: 14px;
+}
+
+ol li+li:before {
+    color: #222222;
+    content: "–";
+}
+
+ol li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ol li a::after {
+    color: #222222;
+}
+
+ul.breadcrumb li a:hover {
+    color: #222222;
+    text-decoration: underline;
+}
+
+/* Контент (блок для заказа конслультации) */
+.main-info {
+    color: #ffffff;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 39px;
+}
+
+.main-text {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.block {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 13px;
+    text-align: left;
+
+}
+
+.leftstr,
+.rightstr {
+    display: inline-block;
+    background: #22222222;
+    padding: 10px;
+    color: #ffffff;
+    margin: 20px 20px 20px 0;
+}
+
+.main-action {
+    display: inline-block;
+    background: #F7B32C;
+    padding: 20px 46px;
+    margin-top: 0px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 13px;
+    border: none;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.url {
+    color: #222222;
+    text-decoration: none;
+}
+
+/* Взыскание неустойки */
+
+.case {
+    height: 580px;
+    margin-top: 160px;
+    color: #222222;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 26px;
+    width: 560px;
+}
+
+.main-text2 {
+    font-size: 13px;
+    line-height: 20px;
+    color: #222222;
+}
+
+.main-info-flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+#flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 100%
+}
+
+#flex-container>.flex-item {
+    width: 5rem;
+
+}
+
+#flex-container>.item {
+    -webkit-flex: auto;
+    flex: auto;
+}
+
+.up-item {
+    font-weight: 700;
+    font-size: 13px;
+    margin: 20px 0 0 20px;
+}
+
+.down-item {
+    font-weight: 500;
+    font-size: 13px;
+    color: #888888;
+    margin: 20px 20px 0 20px;
+}
+
+.flex-item {
+    padding: 30px 0px 20px 20px;
+    box-shadow: 0px 20px 20px rgba(34, 34, 34, 0.05);
+    border-radius: 6px;
+}
+
+/* (блок для записи на консультацию) */
+
+.main2 {
+    margin-top: -120px;
+    height: 720px;
+    width: 100%;
+    background: #22AED1;
+    padding-top: 100px;
+}
+
+.form {
+    font-weight: 500;
+    font-size: 13px;
+    display: inline-block;
+    background-color: #ffffff36;
+    padding: 20px 20px;
+    color: #ffffff !important;
+    margin: 0 20px 20px 0;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 13px;
+    width: 44%;
+    border: none;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+
+input[type="search"]::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+input[type="search"]::-moz-placeholder {
+    color: #ffffff;
+}
+
+.main-action2 {
+    display: inline-block;
+    background: #F7B32C;
+    padding: 20px 20px;
+    color: #222222;
+    margin: 0 20px 20px 0;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 13px;
+    border: none;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    border: none;
+}
+
+.main-text3 {
+    margin-top: -20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.person-dan {
+    color: #ffffff;
+}
